@@ -9,11 +9,12 @@
 <body>
     
 <header class="header">
-    <div class="logo">Portfolio</div>
+   <a href="#about">JENITHA</a>
     <nav>
         <a href="#home">Home</a>
-        <a href="#experience">Experience</a>
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -23,42 +24,69 @@
     <div class="homecontent">
         <h4>I'M <span>WEB DEVELOPER</span></h4>
         <h1>JENITHA S</h1>
-        <p>Creative web developer building modern, responsive and user-friendly websites.Focused on clean design, performance and real-world project solutions.Passionate about creating reliable web applications that improve user experience.</p>
         <div class="buttons">
-            <a class="btn">Hire Me</a>
-            <a class="btn resume">Resume</a>
+            <a class="btn" href="#contact">Hire Me</a>
+            <a href="resume.pdf" class="btn resume">Resume</a>
         </div>
     </div>
 </section>
+<section id="about">
 
+    <div class="about-card">
+
+        <div class="about-left">
+
+            <h1>About<span> me</span></h1>
+
+            <p class="about-text">
+               Hi,  
+               I’m Jenitha, a passionate Frontend Developer and MCA student with a strong focus on building clean, responsive and user-friendly web interfaces. I specialize in transforming ideas and designs into fast, accessible and visually engaging web experiences using modern frontend technologies.My goal is to contribute to impactful projects where I can grow as a frontend engineer, collaborate with creative teams, and build digital products that provide meaningful user experiences.</p>
+
+            <div class="about-contact">
+                <img src="mail.jpg"><p>kavya.jeni2003@gmail.com</p>
+                <img src="phone.jpg"><p>+91 9150135354</p>
+                <img src="linkedin.jpg"><p>linkedin.com/in/jenitha</p>
+            </div>
+
+        </div>
+
+        <div class="about-right">
+            <div class="photo-wrap">
+                <img src="jeni.jpg" alt="My Photo">
+            </div>
+        </div>
+
+    </div>
+
+</section>
 
 <section id ="experience">
 
     <div class="experience-text">
         <h2>My <span>Experience</span></h2>
-        <p>I share my academic projects that reflect my technical skills and real-time application development experience.</p>
-        <a class="btn">Read More</a>
+        <p>I showcase my academic projects that highlight my strong technical foundation and hands-on experience in building real-time, user-centric web applications.These projects reflect my ability to design responsive interfaces, integrate frontend and backend systems, and solve real-world problems using modern development practices.They also demonstrate my continuous learning mindset and readiness to contribute effectively as a professional frontend developer.</p>
+        <h2><a class="git">My Projects</a></h2>
     </div>
 
     <div class="experience-grid">
 
         <div class="card">
-            <h3>Online Medical Appointment System — HealPoint</h3>
+            <h2>Online Medical Appointment System — HealPoint</h2>
             <p>Built a web-based platform for finding doctors and booking appointments with video consultation, e-prescription, and secure role-based access.</p>
         </div>
 
         <div class="card">
-            <h3>Driver Drowsiness Detection System — Drive Safe</h3>
+            <h2>Driver Drowsiness Detection System — Drive Safe</h2>
             <p>Built a real-time driver drowsiness detection and alarm system using OpenCV and deep learning with live webcam monitoring.</p>
         </div>
 
         <div class="card">
-            <h3>News Summarizer & Sentiment Analyzer</h3>
+            <h2>News Summarizer & Sentiment Analyzer</h2>
             <p>Built an NLP-powered news summarizer and sentiment analyzer using Python, NLTK, and TextRank for automated content understanding.</p>
         </div>
 
         <div class="card">
-            <h3>Tutor Finder Web App </h3>
+            <h2>Online Tutor Finder Web App </h2>
             <p>Built a tutor finder web application enabling students to search, filter, and connect with tutors through a responsive interface.</p>
         </div>
 
@@ -66,14 +94,14 @@
 
 </section>
 
-<section id ="about">
+<section id ="skills">
 
-    <h2 class="section-title">More <span>About Me</span></h2>
-    <p class="about-sub">
+    <h2 class="section-title">Education<span> & Skills</span></h2>
+    <p class="skills-sub">
         Creative web developer with strong software skills.
     </p>
 
-    <div class="about-grid">
+    <div class="skills-grid">
 
         <div class="education">
 
@@ -148,42 +176,56 @@
 
 </section>
 
+<section id="contact">
 
-<section id ="contact">
-    <h1>Let's <span>Work Together</span></h1>
-    <div class = "contact-grid">
-        <div class = "contact-form">
-            <h3>Send me a message</h3>
+  <h2 class="contact-title">Let's <span>Work Together</span></h2>
 
-            <form>
+  <div class="contact-grid">
 
-            <label>Name</label>
-            <input type="text"name="name">
+    <div class="contact-box">
 
-            <label>Email</label>
-            <input type="text"name="email">
+      <h3>Send me a message</h3>
 
-            <label>Message</label>
-            <textarea rows="4"></textarea>
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Your name">
 
-            <button>Send Message</button>
+        <label>Email</label>
+        <input type="email" placeholder="Your email">
 
-            </form>
+        <label>Message</label>
+        <textarea rows="4" placeholder="Your message"></textarea>
 
-        </div>
-        <div class ="contact-info">
-            <div class ="work">
-                <p> As a passionate Web Developer, I specialize in building modern, 
-        responsive and user-focused web applications. I enjoy transforming 
-        ideas into real-world digital solutions using clean code and 
-        efficient design principles.</p> 
-            </div>
-            <div class = "socials">
-                <h4>My Socials</h4>
-            </div>
-        </div>
+        <button type="button">Send Message</button>
+      </form>
 
     </div>
+
+    <div class="contact-right">
+
+      <div class="contact-box small-box">
+        <p>
+          As a passionate Web Developer, I specialize in building modern,
+          responsive and user-focused web applications. I enjoy transforming
+          ideas into real-world digital solutions using clean code and
+          efficient design principles.
+        </p>
+      </div>
+<div class="contact-box socials-box">
+    <h3>My Socials</h3>
+
+    <div class="social-icons">
+        <a href="mailto:kavya.jeni2003@gmail.com"><img src="mailbox.jpg" alt="Mail"></a>
+        <a href="https://github.com/sjenitha10"><img src="git.jpg" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/jenitha-s-898540293"><img src="link.jpg" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/jeni_solairaj/"><img src="insta.jpg" alt="Instagram"></a>
+    </div>
+      </div>
+
+    </div>
+
+  </div>
+
 </section>
 
 
