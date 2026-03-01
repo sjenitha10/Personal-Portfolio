@@ -65,7 +65,7 @@ nav a:hover {
     padding: 70px 8%;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("image.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("assets/image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
