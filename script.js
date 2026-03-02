@@ -51,7 +51,7 @@ function sendMail(){
         email : document.getElementById("email").value,
         message : document.getElementById("message").value,
     }
-    emailjs.send ("service_lxze4ye","template_w2j036q","template_e70afvs",parms).then(alert("Email Sent!!"))
+    emailjs.send ("service_lxze4ye","template_w2j036q",parms).then(alert("Email Sent!!"))
 }
     
 
