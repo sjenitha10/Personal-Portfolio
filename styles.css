@@ -167,7 +167,7 @@ nav a:hover {
 }
 
 #about h1{
-    margin-bottom:40px;
+    margin-bottom:20px;
     font-size:42px;
     color:#ffffff;  
 }
@@ -360,6 +360,14 @@ nav a:hover {
     height: 180px;
     object-fit: cover;
     border-radius: 6px;
+}
+.edu-caption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #cfd9ff;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
 }
 .edu-img-box {
     position: relative;

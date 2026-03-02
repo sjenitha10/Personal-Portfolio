@@ -44,3 +44,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+function sendMail(){
+    let parms = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        message : document.getElementById("message").value,
+    }
+    emailjs.send ("service_lxze4ye","template_w2j036q","template_e70afvs",parms).then(alert("Email Sent!!"))
+}
+    
+
+    
