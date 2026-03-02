@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenitha-Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "Etmi-KaPs3aGM0Qo9",
+      });
+   })();
+</script>
 </head>
 <body>
     
@@ -129,16 +139,20 @@
         </div>
      <div class="edu-images">
     <div class="edu-img-box">
-        <img src="assets/img1.jpeg" alt="Project 1">
+        <img src="assets/img1.jpeg">
+         <p class="edu-caption">Graduation Day - A proud moment marking the completion of my UG.</p>
     </div>
     <div class="edu-img-box">
-        <img src="assets/img2.jpeg" alt="Project 2">
+        <img src="assets/img2.jpeg">
+         <p class="edu-caption">Academic Recognition - Appreciated for outstanding results.</p>
     </div>
     <div class="edu-img-box">
-        <img src="assets/img3.jpeg" alt="Project 3">
+        <img src="assets/img3.jpeg">
+         <p class="edu-caption">Moments of Recognition - Honored for consistent performance and contributions.</p>
     </div>
     <div class="edu-img-box">
-        <img src="assets/img4.jpeg" alt="Project 4">
+        <img src="assets/img4.jpeg">
+         <p class="edu-caption">Academic Excellence Award - Honored with first prize for securing top performance.</p>
     </div>
 </div>
     </div>
@@ -221,7 +235,7 @@
       <textarea rows="4" id="message" placeholder="Your message"></textarea>
       <small class="error" id="messageError"></small>
 
-      <button type="submit">Send Message</button>
+      <button type="submit" onclick="sendMail()">Send Message</button>
       </form>
 
     </div>
